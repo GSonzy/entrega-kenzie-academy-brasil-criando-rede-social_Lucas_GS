@@ -1,0 +1,73 @@
+.aside__container{
+    width: 30%;
+    position: fixed;
+    top: 130px;
+    right: 98px;
+}
+
+.title-suggestion__aside{
+    font-size: var(--title-one);
+    font-weight: 700;
+    line-height:2.5rem;
+    margin-bottom: 50px;
+}
+
+.list-suggest__card{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    width: 25rem;
+}
+
+.organize-suggest__card{
+    display: flex;
+    width: 70%;
+}
+
+.name-suggest__card{
+  margin: 0px 10px;
+  
+}
+
+.follow-button__card{
+    height: 1.75rem;
+    width: 4.25rem;
+    border: solid 1px black;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.follow-button__card:hover{
+    color:var(--brand-color-one);
+    border: 1px solid var(--brand-color-one);
+}
+
+@media (max-width:1024px){
+
+    .aside__container{
+        width: 100%;
+        position: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside__controler{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .organize-suggest__card{
+        display: flex;
+        width: 100%;
+    }
+
+    .list-suggest__card{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}

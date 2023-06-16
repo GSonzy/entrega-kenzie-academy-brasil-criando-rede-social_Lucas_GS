@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--grey-color-two);
+    color:var(--white-color-perma) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.title__post{
+    margin-right: 300px;
+}
+
+.exit__post{
+    background-color: var(--grey-color-two);
+    color:var(--white-color-perma);
+    margin-left: 450px;
+}
+
+@media (max-width:1024px){
+
+    header{
+        width: 100%;
+        justify-content: none;
+    }
+
+    .title__post{
+        margin-right: 0px;
+    }
+    
+    .exit__post{
+        margin-left: 0px;
+    }
+
+}
